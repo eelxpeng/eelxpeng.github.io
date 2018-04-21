@@ -14,7 +14,7 @@ pubs:
 
     - title:   "Building Sparse Deep Feedforward Networks using Tree Receptive Fields"
       author:  "Xiaopeng Li, Zhourong Chen and Nevin L. Zhang"
-      journal: "arXiv"
+      journal: "International Joint Conference on Artificial Intelligence (Accepted)"
       year:    "2018"
       media:
         - name: "arXiv"
