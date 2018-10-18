@@ -3,11 +3,11 @@
   <channel>
     <title>Xiaopeng LI</title>
     <description></description>
-    <link>http://eelxpeng.github.io/</link>
-    <atom:link href="http://eelxpeng.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 21 Apr 2018 18:21:55 +0800</pubDate>
-    <lastBuildDate>Sat, 21 Apr 2018 18:21:55 +0800</lastBuildDate>
-    <generator>Jekyll v3.2.1</generator>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 18 Oct 2018 22:24:38 +0800</pubDate>
+    <lastBuildDate>Thu, 18 Oct 2018 22:24:38 +0800</lastBuildDate>
+    <generator>Jekyll v3.8.4</generator>
     
       <item>
         <title>Exponential Family</title>
@@ -118,8 +118,8 @@ t = t+1&lt;/script&gt;
 t = t+1&lt;/script&gt;
 </description>
         <pubDate>Wed, 14 Mar 2018 12:00:00 +0800</pubDate>
-        <link>http://eelxpeng.github.io/blog/2018/03/14/Exponential-Family</link>
-        <guid isPermaLink="true">http://eelxpeng.github.io/blog/2018/03/14/Exponential-Family</guid>
+        <link>http://localhost:4000/blog/2018/03/14/Exponential-Family</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2018/03/14/Exponential-Family</guid>
         
         
       </item>
@@ -208,8 +208,8 @@ F(d;R,G) = -\log P(d;G) + \mathbb{KL}(Q(h|d;R), P(h|d;G)).&lt;/script&gt;
 &lt;p&gt;In conclusion, many good ideas in machine learning are remarkablely similar. One has to find the underlying connections in order to develop deep understanding of the algorithms. I read some of the points from online or books, and I am not at all fully understand all of them. But the subtle connections are really interesting. And I think that, although many people are interested in deep neural networks without probabilistic, there are indeed many ideas that are more straightforward and more promising under probabilistic framework, especially unsupervised deep learning.&lt;/p&gt;
 </description>
         <pubDate>Fri, 15 Dec 2017 12:00:00 +0800</pubDate>
-        <link>http://eelxpeng.github.io/blog/2017/12/15/EM-In-Depth</link>
-        <guid isPermaLink="true">http://eelxpeng.github.io/blog/2017/12/15/EM-In-Depth</guid>
+        <link>http://localhost:4000/blog/2017/12/15/EM-In-Depth</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2017/12/15/EM-In-Depth</guid>
         
         
       </item>
@@ -245,8 +245,8 @@ F(d;R,G) = -\log P(d;G) + \mathbb{KL}(Q(h|d;R), P(h|d;G)).&lt;/script&gt;
 &lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\tanh(x)=2\sigma(2x)-1&lt;/script&gt;&lt;/p&gt;
 </description>
         <pubDate>Fri, 10 Mar 2017 12:00:00 +0800</pubDate>
-        <link>http://eelxpeng.github.io/blog/2017/03/10/Tricks-of-Sigmoid-Function</link>
-        <guid isPermaLink="true">http://eelxpeng.github.io/blog/2017/03/10/Tricks-of-Sigmoid-Function</guid>
+        <link>http://localhost:4000/blog/2017/03/10/Tricks-of-Sigmoid-Function</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2017/03/10/Tricks-of-Sigmoid-Function</guid>
         
         
       </item>
@@ -256,8 +256,8 @@ F(d;R,G) = -\log P(d;G) + \mathbb{KL}(Q(h|d;R), P(h|d;G)).&lt;/script&gt;
         <description>&lt;p&gt;Variational Autoencoder (VAE) has been proposed for two years. During the past two years, some good papers related variational autoencoder come up time to time. And I think it is a good tool worth investigating. Recently, I decide to do something about collaborative recommendation with cross-modality multimedia content using Bayesian deep learning. I think VAE could be a good help. In this post, I’ll investigate and explain VAE in my way.&lt;/p&gt;
 </description>
         <pubDate>Sat, 19 Nov 2016 12:00:00 +0800</pubDate>
-        <link>http://eelxpeng.github.io/blog/2016/11/19/Variational-Autoencoder</link>
-        <guid isPermaLink="true">http://eelxpeng.github.io/blog/2016/11/19/Variational-Autoencoder</guid>
+        <link>http://localhost:4000/blog/2016/11/19/Variational-Autoencoder</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2016/11/19/Variational-Autoencoder</guid>
         
         
       </item>
@@ -402,9 +402,8 @@ plt.plot(xGrid,y,'-',xhmc[1:],yhmc,'g-v',xsgld[1:], ysgld, 'm-x', xsghmc[1:],ysg
 plt.legend( ('True Distribution', 'Standard HMC', 'SGLD', 'SGHMC'), loc='center left', bbox_to_anchor=(1, 0.5))
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;matplotlib.legend.Legend at 0x1064ea110&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;matplotlib.legend.Legend at 0x1064ea110&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/Stochastic-Gradient-Monte-Carlo/Stochastic-Gradient-Monte-Carlo_6_1.png&quot; alt=&quot;png&quot; /&gt;&lt;/p&gt;
 
@@ -452,9 +451,8 @@ cmap, norm = matplotlib.colors.from_levels_and_colors([0, 1, 2], ['red', 'green'
 plt.scatter(X[:,1], X[:,2], c=y, cmap=cmap)
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;matplotlib.collections.PathCollection at 0x10cb79b50&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;matplotlib.collections.PathCollection at 0x10cb79b50&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/Stochastic-Gradient-Monte-Carlo/Stochastic-Gradient-Monte-Carlo_10_1.png&quot; alt=&quot;png&quot; /&gt;&lt;/p&gt;
 
@@ -496,20 +494,18 @@ while np.linalg.norm(grad(w,X,y,r)) &amp;gt; 1e-6:
 print &quot;weight: &quot;, w[0],w[1],w[2]
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[Iter 0]: cost=605.040794
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[Iter 0]: cost=605.040794
 [Iter 1000]: cost=278.583159
 weight:  2.02798388293 3.42836274096 0.931072930232
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;pre&gt;&lt;code class=&quot;language-Python&quot;&gt;# Prediction results for SGD
 accSGLD = np.mean((prob(w, XTest) &amp;gt; 0.5) == yTest);
 print('The test accuracy is %f' % accSGLD)
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;The test accuracy is 0.855000
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;The test accuracy is 0.855000
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;h3 id=&quot;logistic-regression-with-sgld&quot;&gt;Logistic Regression with SGLD&lt;/h3&gt;
 
@@ -590,9 +586,8 @@ samples = LR_SGLD(X,y)
 &lt;pre&gt;&lt;code class=&quot;language-Python&quot;&gt;np.mean(samples,0)
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;array([ 1.51066479,  2.60689302,  0.77643745])
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;array([ 1.51066479,  2.60689302,  0.77643745])
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;pre&gt;&lt;code class=&quot;language-Python&quot;&gt;plt.subplot(311)
 plt.hist(samples[:,0],20)
@@ -611,9 +606,8 @@ plt.xlabel(&quot;Value&quot;)
 plt.ylabel(&quot;Frequency&quot;)
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;matplotlib.text.Text at 0x10bc85f10&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;matplotlib.text.Text at 0x10bc85f10&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/Stochastic-Gradient-Monte-Carlo/Stochastic-Gradient-Monte-Carlo_18_1.png&quot; alt=&quot;png&quot; /&gt;&lt;/p&gt;
 
@@ -625,9 +619,8 @@ accSGLD = np.mean((probPred &amp;gt; 0.5) == yTest);
 print('Test accuracy is %f' %accSGLD)
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Test accuracy is 0.853000
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Test accuracy is 0.853000
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;As it can be seen, using SGLD with minibatch of only about 30, we can approximate the true posterior. Furthermore, as interested by many recent papers, from the posterior distribution of the parameters, we can obtain the uncertainty of the model about the prediction.&lt;/p&gt;
 
@@ -713,9 +706,8 @@ samples_SGHMC = LR_SGHMC(X,y)
 &lt;pre&gt;&lt;code class=&quot;language-Python&quot;&gt;np.mean(samples_SGHMC,0)
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;array([ 1.46368518,  2.5681857 ,  0.74677892])
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;array([ 1.46368518,  2.5681857 ,  0.74677892])
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;pre&gt;&lt;code class=&quot;language-Python&quot;&gt;plt.subplot(311)
 plt.hist(samples_SGHMC[:,0],20)
@@ -734,9 +726,8 @@ plt.xlabel(&quot;Value&quot;)
 plt.ylabel(&quot;Frequency&quot;)
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;matplotlib.text.Text at 0x114e7d750&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;matplotlib.text.Text at 0x114e7d750&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/Stochastic-Gradient-Monte-Carlo/Stochastic-Gradient-Monte-Carlo_24_1.png&quot; alt=&quot;png&quot; /&gt;&lt;/p&gt;
 
@@ -748,9 +739,8 @@ accSGLD = np.mean((probPred &amp;gt; 0.5) == yTest);
 print('Test accuracy is %f' %accSGLD)
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Test accuracy is 0.851000
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Test accuracy is 0.851000
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
 
@@ -762,8 +752,8 @@ print('Test accuracy is %f' %accSGLD)
 &lt;p&gt;[2] Chen, Tianqi, Emily B. Fox, and Carlos Guestrin. “Stochastic Gradient Hamiltonian Monte Carlo.” ICML. 2014.&lt;/p&gt;
 </description>
         <pubDate>Tue, 06 Sep 2016 12:00:00 +0800</pubDate>
-        <link>http://eelxpeng.github.io/blog/2016/09/06/Stochastic-Gradient-Monte-Carlo</link>
-        <guid isPermaLink="true">http://eelxpeng.github.io/blog/2016/09/06/Stochastic-Gradient-Monte-Carlo</guid>
+        <link>http://localhost:4000/blog/2016/09/06/Stochastic-Gradient-Monte-Carlo</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2016/09/06/Stochastic-Gradient-Monte-Carlo</guid>
         
         
       </item>
@@ -907,8 +897,8 @@ dpm.KK = KK;
 &lt;/code&gt;&lt;/pre&gt;
 </description>
         <pubDate>Tue, 16 Aug 2016 12:00:00 +0800</pubDate>
-        <link>http://eelxpeng.github.io/blog/2016/08/16/Dirichlet-Process</link>
-        <guid isPermaLink="true">http://eelxpeng.github.io/blog/2016/08/16/Dirichlet-Process</guid>
+        <link>http://localhost:4000/blog/2016/08/16/Dirichlet-Process</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2016/08/16/Dirichlet-Process</guid>
         
         
       </item>
@@ -1089,9 +1079,8 @@ n = 50000
 samples = metropolis(w_0, n)
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Acceptance ratio 0.24342
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Acceptance ratio 0.24342
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;pre&gt;&lt;code class=&quot;language-Python&quot;&gt;import matplotlib.pyplot as plt
 %matplotlib inline  
@@ -1223,8 +1212,8 @@ plt.show()
 
 </description>
         <pubDate>Mon, 08 Aug 2016 12:00:00 +0800</pubDate>
-        <link>http://eelxpeng.github.io/blog/2016/08/08/Markov-Chain-Monte-Carlo</link>
-        <guid isPermaLink="true">http://eelxpeng.github.io/blog/2016/08/08/Markov-Chain-Monte-Carlo</guid>
+        <link>http://localhost:4000/blog/2016/08/08/Markov-Chain-Monte-Carlo</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2016/08/08/Markov-Chain-Monte-Carlo</guid>
         
         
       </item>
@@ -1237,9 +1226,9 @@ plt.show()
 
 &lt;p&gt;In order to publish to github, run following commands:&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;gp&quot;&gt;~$ &lt;/span&gt;git add --all
-&lt;span class=&quot;gp&quot;&gt;~$ &lt;/span&gt;git commit -m &lt;span class=&quot;s2&quot;&gt;&quot;Initial commit&quot;&lt;/span&gt;
-&lt;span class=&quot;gp&quot;&gt;~$ &lt;/span&gt;git push -u origin master&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;~&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git add &lt;span class=&quot;nt&quot;&gt;--all&lt;/span&gt;
+~&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git commit &lt;span class=&quot;nt&quot;&gt;-m&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Initial commit&quot;&lt;/span&gt;
+~&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git push &lt;span class=&quot;nt&quot;&gt;-u&lt;/span&gt; origin master&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
 
@@ -1253,8 +1242,8 @@ plt.show()
 
 </description>
         <pubDate>Fri, 13 May 2016 22:16:28 +0800</pubDate>
-        <link>http://eelxpeng.github.io/blog/2016/05/13/welcome-to-jekyll</link>
-        <guid isPermaLink="true">http://eelxpeng.github.io/blog/2016/05/13/welcome-to-jekyll</guid>
+        <link>http://localhost:4000/blog/2016/05/13/welcome-to-jekyll</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2016/05/13/welcome-to-jekyll</guid>
         
         
         <category>jekyll</category>

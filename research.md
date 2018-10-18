@@ -19,6 +19,8 @@ pubs:
       media:
         - name: "arXiv"
           url:  "https://arxiv.org/abs/1803.05209"
+        - name: "github"
+          url:  "https://github.com/eelxpeng/TreeReceptiveFields"
 
     - title:   "Learning Sparse Deep Feedforward Networks via Tree Skeleton Expansion"
       author:  "Zhourong Chen, Xiaopeng Li and Nevin L. Zhang"
