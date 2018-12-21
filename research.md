@@ -4,10 +4,10 @@ permalink: /research/
 title: Research
 pubs:
     
-    - title:   "Latent Tree Variational Autoencoder for Joint Representation Learning and Multidimensional Clustering"
+    - title:   "Learning Latent Superstructures in Variational Autoencoders for Deep Multidimensional Clustering"
       author:  "Xiaopeng Li, Zhourong Chen and Nevin L. Zhang"
-      journal: "arXiv"
-      year:    "2018"
+      journal: "International Conference on Learning Representations"
+      year:    "2019"
       media:
         - name: "arXiv"
           url:  "https://arxiv.org/abs/1803.05206"
