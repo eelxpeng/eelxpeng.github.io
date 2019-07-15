@@ -6,7 +6,7 @@ permalink: /
 
 {% include image.html url="images/photo.jpg" caption="" width="300em" align="right" %}
 
-Xiaopeng LI is currently studying towards his Ph.D. degree at the Hong Kong University of Science and Technology. He works in the area of machine learning and artificial intelligence. His current research interests include deep learning, Bayesian networks and graphical models, Bayesian deep learning, and their application in computer vision, natural language processing, and recommender systems.
+Xiaopeng LI (Chopin) is currently studying towards his Ph.D. degree at the Hong Kong University of Science and Technology. He works in the area of machine learning and artificial intelligence. His current research interests include deep learning, Bayesian networks and graphical models, Bayesian deep learning, and their application in computer vision, natural language processing, and recommender systems.
 
 ## Contact
 
