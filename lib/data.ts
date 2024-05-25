@@ -16,75 +16,129 @@ export const links = [
     hash: "#about",
   },
   {
-    name: "Projects",
-    hash: "#projects",
-  },
-  {
-    name: "Skills",
-    hash: "#skills",
-  },
-  {
     name: "Experience",
     hash: "#experience",
   },
   {
-    name: "Contact",
-    hash: "#contact",
+    name: "Research",
+    hash: "#projects",
   },
+  // {
+  //   name: "Skills",
+  //   hash: "#skills",
+  // },
+  // {
+  //   name: "Contact",
+  //   hash: "#contact",
+  // },
 ] as const;
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Senior Applied Scientist",
+    location: "Seattle, WA",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "Initiator and science lead for Amazon Q in IDE project. Worked on developing chat model, RLHF and agent for code generation",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2022 - present",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Applied Scientist",
+    location: "Seattle, WA",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "Founding member of CodeWhisperer team. Led the pretraining and finetuning of code LLMs with tens of billion parameters since 2020",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2019 - 2022",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Intern at Google Cloud AI",
+    location: "Sunnyvale, CA",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "Worked on AutoML Recommendations with Google Brain and Cloud AI team",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2018",
+  },
+  {
+    title: "PhD Student at the Hong Kong University of Science and Technology",
+    location: "Hong Kong, China",
+    description:
+      "PhD in Computer Science and Engineering",
+    icon: React.createElement(FaReact),
+    date: "2014 - 2019",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Training LLMs to Better Self-Debug and Explain Code - preprint 2024",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
+      "Nan Jiang, Xiaopeng Li et al.",
     tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+    imageUrl: "/research/self-debug-2024.jpg",
   },
   {
-    title: "rmtDev",
+    title: "Multi-lingual Evaluation of code-generation model - ICLR 2023 (spotlight)",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
+      "Ben Athiwaratkun, Sanjay Krishna Gouda, Zijian Wang, Xiaopeng Li, et al.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+    imageUrl: "/research/mbxp.png",
   },
   {
-    title: "Word Analytics",
+    title: "CONTRACLM: Contrastive Learning For Causal Language Model - ACL 2023",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
+      "Nihal Jain, Dejiao Zhang, Wasi Uddin Ahmad, Zijian Wang, Feng Nan, Xiaopeng Li, et al.",
+    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+    imageUrl: "/research/contraclm.png",
+  },
+  {
+    title: "Exploring Continual Learning for Code Generation Models - ACL 2023",
+    description:
+      "Prateek Yadav, Qing Sun, Hantian Ding, Xiaopeng Li, et al.",
+    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+    imageUrl: "/research/continual-learning.png",
+  },
+  {
+    title: "Not All Attention Is Needed: Gated Attention Network for Sequence Data - AAAI 2020",
+    description:
+      "Lanqing Xue, Xiaopeng Li, Nevin L. Zhang",
     tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+    imageUrl: "/research/gated-attention.png",
+  },
+  {
+    title: "Learning Latent Superstructures in Variational Autoencoders for Deep Multidimensional Clustering - ICLR 2019",
+    description:
+      "Xiaopeng Li et al.",
+    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+    imageUrl: "/research/ltvae.png",
+  },
+  {
+    title: "Collaborative Variational Autoencoder for Recommender Systems - KDD 2017",
+    description:
+      "Xiaopeng Li and James She.",
+    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+    imageUrl: "/research/cvae.png",
+  },
+] as const;
+
+export const demosData = [
+  {
+    title: "Code AutoCompletion with LLM",
+    description:
+      "I pretrained a code GPT model in Aug 2020 for code generation, and created a interactive demo for code completion in IDE. Very primitive, but it was 2020 way before LLM surge.",
+    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+    imageUrl: "/demos/code-completion-demo.png",
+  },
+  {
+    title: "Chat LLM",
+    description:
+      "I created the first chat LLM in the code generation domain in Feb 2023, and created a interactive chat demo. Very primitive, but it was right after ChatGPT appears and before any open source chat model release.",
+    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+    imageUrl: "/demos/chat-demo.png",
   },
 ] as const;
 
 export const skillsData = [
+  "Pytorch",
   "HTML",
   "CSS",
   "JavaScript",
