@@ -12,6 +12,7 @@ export default function Demo({
   description,
   tags,
   imageUrl,
+  externalUrl,
 }: ProjectProps) {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
@@ -69,16 +70,31 @@ export default function Demo({
 
       <section className="bg-gray-100 max-w-[35rem] border border-black/5 rounded-lg overflow-hidden sm:pr-8 relative sm:h-[20rem] hover:bg-gray-200 transition sm:group-even:pl-8 dark:text-white dark:bg-white/10 dark:hover:bg-white/20">
         <div className="relative h-[10rem]">
-          <div className="absolute top-0 left-0 right-0 bottom-0 m-4">
-            <Image
-              src={imageUrl}
-              alt="Project I worked on"
-              quality={95}
-              layout="fill"
-              objectFit="contain"
-              className="rounded-lg shadow-2xl transition group-hover:scale-[1.04] group-hover:-translate-x-3 group-hover:translate-y-3 group-hover:-rotate-2"
-            />
-          </div>
+          {externalUrl ? (
+            <a href={externalUrl} target="_blank" rel="noopener noreferrer" className="block w-full h-full hover:opacity-80 transition cursor-pointer">
+              <div className="absolute top-0 left-0 right-0 bottom-0 m-4">
+                <Image
+                  src={imageUrl}
+                  alt="Project I worked on"
+                  quality={95}
+                  layout="fill"
+                  objectFit="contain"
+                  className="rounded-lg shadow-2xl transition group-hover:scale-[1.04] group-hover:-translate-x-3 group-hover:translate-y-3 group-hover:-rotate-2"
+                />
+              </div>
+            </a>
+          ) : (
+            <div className="absolute top-0 left-0 right-0 bottom-0 m-4">
+              <Image
+                src={imageUrl}
+                alt="Project I worked on"
+                quality={95}
+                layout="fill"
+                objectFit="contain"
+                className="rounded-lg shadow-2xl transition group-hover:scale-[1.04] group-hover:-translate-x-3 group-hover:translate-y-3 group-hover:-rotate-2"
+              />
+            </div>
+          )}
         </div>
         <div className="px-5 pt-7 pb-5 sm:px-10 sm:pt-5">
           <h3 className="text-xl font-semibold">{title}</h3>

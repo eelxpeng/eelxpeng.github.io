@@ -131,6 +131,7 @@ export const demosData = [
       "I pretrained a code GPT model in Aug 2020 for code generation, and created a interactive demo for code completion in IDE. Very primitive, but it was 2020 way before LLM surge.",
     tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
     imageUrl: "/demos/code-completion-demo.png",
+    externalUrl: "",
   },
   {
     title: "Chat LLM",
@@ -138,6 +139,7 @@ export const demosData = [
       "I created the first chat LLM in the code generation domain in Feb 2023, and created a interactive chat demo. Very primitive, but it was right after ChatGPT appears and before any open source chat model release.",
     tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
     imageUrl: "/demos/chat-demo.png",
+    externalUrl: "https://chat-demo-swart.vercel.app/"
   },
 ] as const;
 
